@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22D72C171D3679E100AA1054 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D72C161D3679E100AA1054 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22D72C201D367A0C00AA1054 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D72C1E1D367A0C00AA1054 /* TestClass.h */; };
+		22D72C201D367A0C00AA1054 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D72C1E1D367A0C00AA1054 /* TestClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D72C211D367A0C00AA1054 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D72C1F1D367A0C00AA1054 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
@@ -237,6 +237,8 @@
 		22D72C1C1D3679E100AA1054 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -253,6 +255,8 @@
 		22D72C1D1D3679E100AA1054 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
