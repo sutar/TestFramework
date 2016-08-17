@@ -12,4 +12,6 @@
 
 - (void)echo;
 
+- (void)getIPAddress:(void (^)(NSString *ipAddress))completion;
+
 @end
