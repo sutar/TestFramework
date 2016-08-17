@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22ABB7E41D64A34100FF4451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABB7E31D64A34100FF4451 /* AppDelegate.swift */; };
+		22ABB7E61D64A34100FF4451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABB7E51D64A34100FF4451 /* ViewController.swift */; };
+		22ABB7E91D64A34100FF4451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ABB7E71D64A34100FF4451 /* Main.storyboard */; };
+		22ABB7EB1D64A34100FF4451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ABB7EA1D64A34100FF4451 /* Assets.xcassets */; };
+		22ABB7EE1D64A34100FF4451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ABB7EC1D64A34100FF4451 /* LaunchScreen.storyboard */; };
+		22ABB7F61D64A35800FF4451 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ABB7F51D64A35800FF4451 /* TestFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22ABB7E01D64A34100FF4451 /* AlohaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlohaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ABB7E31D64A34100FF4451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22ABB7E51D64A34100FF4451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22ABB7E81D64A34100FF4451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22ABB7EA1D64A34100FF4451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22ABB7ED1D64A34100FF4451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22ABB7EF1D64A34100FF4451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ABB7F51D64A35800FF4451 /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/TestFramework-cwujwtecqccedxekotikvlekgkuy/Build/Products/Debug-iphonesimulator/TestFramework.framework"; sourceTree = "<group>"; };
+		22ABB7F71D64A3CF00FF4451 /* AlohaDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlohaDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ABB7DD1D64A34100FF4451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ABB7F61D64A35800FF4451 /* TestFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22ABB7D71D64A34100FF4451 = {
+			isa = PBXGroup;
+			children = (
+				22ABB7F51D64A35800FF4451 /* TestFramework.framework */,
+				22ABB7E21D64A34100FF4451 /* AlohaDemo */,
+				22ABB7E11D64A34100FF4451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22ABB7E11D64A34100FF4451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ABB7E01D64A34100FF4451 /* AlohaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ABB7E21D64A34100FF4451 /* AlohaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22ABB7E31D64A34100FF4451 /* AppDelegate.swift */,
+				22ABB7E51D64A34100FF4451 /* ViewController.swift */,
+				22ABB7E71D64A34100FF4451 /* Main.storyboard */,
+				22ABB7EA1D64A34100FF4451 /* Assets.xcassets */,
+				22ABB7EC1D64A34100FF4451 /* LaunchScreen.storyboard */,
+				22ABB7F71D64A3CF00FF4451 /* AlohaDemo-Bridging-Header.h */,
+				22ABB7EF1D64A34100FF4451 /* Info.plist */,
+			);
+			path = AlohaDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ABB7DF1D64A34100FF4451 /* AlohaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ABB7F21D64A34100FF4451 /* Build configuration list for PBXNativeTarget "AlohaDemo" */;
+			buildPhases = (
+				22ABB7DC1D64A34100FF4451 /* Sources */,
+				22ABB7DD1D64A34100FF4451 /* Frameworks */,
+				22ABB7DE1D64A34100FF4451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlohaDemo;
+			productName = AlohaDemo;
+			productReference = 22ABB7E01D64A34100FF4451 /* AlohaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ABB7D81D64A34100FF4451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Xin Wang";
+				TargetAttributes = {
+					22ABB7DF1D64A34100FF4451 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 22ABB7DB1D64A34100FF4451 /* Build configuration list for PBXProject "AlohaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22ABB7D71D64A34100FF4451;
+			productRefGroup = 22ABB7E11D64A34100FF4451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ABB7DF1D64A34100FF4451 /* AlohaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ABB7DE1D64A34100FF4451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ABB7EE1D64A34100FF4451 /* LaunchScreen.storyboard in Resources */,
+				22ABB7EB1D64A34100FF4451 /* Assets.xcassets in Resources */,
+				22ABB7E91D64A34100FF4451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ABB7DC1D64A34100FF4451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ABB7E61D64A34100FF4451 /* ViewController.swift in Sources */,
+				22ABB7E41D64A34100FF4451 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22ABB7E71D64A34100FF4451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ABB7E81D64A34100FF4451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22ABB7EC1D64A34100FF4451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ABB7ED1D64A34100FF4451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22ABB7F01D64A34100FF4451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22ABB7F11D64A34100FF4451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ABB7F31D64A34100FF4451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlohaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etchinglab.AlohaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AlohaDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		22ABB7F41D64A34100FF4451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlohaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etchinglab.AlohaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AlohaDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ABB7DB1D64A34100FF4451 /* Build configuration list for PBXProject "AlohaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ABB7F01D64A34100FF4451 /* Debug */,
+				22ABB7F11D64A34100FF4451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ABB7F21D64A34100FF4451 /* Build configuration list for PBXNativeTarget "AlohaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ABB7F31D64A34100FF4451 /* Debug */,
+				22ABB7F41D64A34100FF4451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22ABB7D81D64A34100FF4451 /* Project object */;
+}

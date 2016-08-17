@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AlohaDemo/AlohaDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TestFramework.xcodeproj">
    </FileRef>
    <FileRef
