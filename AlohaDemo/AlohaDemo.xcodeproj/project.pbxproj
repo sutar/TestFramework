@@ -23,7 +23,7 @@
 		22ABB7EA1D64A34100FF4451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22ABB7ED1D64A34100FF4451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22ABB7EF1D64A34100FF4451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22ABB7F51D64A35800FF4451 /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/TestFramework-cwujwtecqccedxekotikvlekgkuy/Build/Products/Debug-iphonesimulator/TestFramework.framework"; sourceTree = "<group>"; };
+		22ABB7F51D64A35800FF4451 /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestFramework.framework; path = "../Debug-iphonesimulator/TestFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ABB7F71D64A3CF00FF4451 /* AlohaDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlohaDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
