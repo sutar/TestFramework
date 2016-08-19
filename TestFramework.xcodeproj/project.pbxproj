@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22ABB8261D672E5100FF4451 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ABB8251D672E5100FF4451 /* libAFNetworking.a */; };
 		22D72C171D3679E100AA1054 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D72C161D3679E100AA1054 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D72C201D367A0C00AA1054 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D72C1E1D367A0C00AA1054 /* TestClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D72C211D367A0C00AA1054 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D72C1F1D367A0C00AA1054 /* TestClass.m */; };
-		9C774C6DBEF098E9D1CF8355 /* libPods-TestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF78A280EA00057A8651127D /* libPods-TestFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22ABB8251D672E5100FF4451 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		22D72C131D3679E100AA1054 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D72C161D3679E100AA1054 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		22D72C181D3679E100AA1054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C774C6DBEF098E9D1CF8355 /* libPods-TestFramework.a in Frameworks */,
+				22ABB8261D672E5100FF4451 /* libAFNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +78,7 @@
 		BE445A3EB24CD09D8B658F04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22ABB8251D672E5100FF4451 /* libAFNetworking.a */,
 				CF78A280EA00057A8651127D /* libPods-TestFramework.a */,
 			);
 			name = Frameworks;
@@ -306,6 +308,7 @@
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.etchinglab.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -325,6 +328,7 @@
 				INFOPLIST_FILE = TestFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.etchinglab.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
